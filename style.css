@@ -52,3 +52,15 @@ section {
   margin-bottom: 1.5rem;
   border-radius: 8px;
 }
+
+.project-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.project-card {
+  background-color: #e8edff;
+  padding: 1rem;
+  border-radius: 8px;
+}
