@@ -20,3 +20,9 @@
   text-align: center;
   padding: 1rem;
 }
+
+.site-nav a {
+  color: white;
+  margin: 0 0.75rem;
+  font-weight: bold;
+}
