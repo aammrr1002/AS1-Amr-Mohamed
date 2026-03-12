@@ -61,6 +61,23 @@ section {
 
 .project-card {
   background-color: #e8edff;
-  padding: 1rem;
+  padding: 2em;
+  border: 1px solid #1f3c88;
   border-radius: 8px;
+}
+
+.card-one {
+  grid-column: 1 / 3;
+}
+
+.card-two {
+  grid-column: 1 / 2;
+}
+
+.card-three {
+  grid-column: 2 / 3;
+}
+
+.card-four {
+  grid-column: 1/ 3;
 }
