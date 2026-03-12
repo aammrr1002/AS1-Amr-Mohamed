@@ -23,6 +23,11 @@
 
 .site-nav a {
   color: white;
+  text-decoration: none;
   margin: 0 0.75rem;
   font-weight: bold;
+}
+
+.site-nav a:hover {
+  text-decoration: underline;
 }
