@@ -11,7 +11,6 @@ body {
   color: #222;
 }
 
-
 .site-header {
   background-color: #1f3c88;
   color: white;
@@ -135,4 +134,85 @@ button:hover {
 
 .video-note {
   margin-top: 1rem;
+}
+
+.report-page {
+  background-color: white;
+  width: 90%;
+  max-width: 850px;
+  margin: 2em auto;
+  padding: 2em 2.5em;
+  border: 1px solid #c7d2e2;
+  line-height: 1.6;
+}
+
+.report-section {
+  margin-bottom: 0.5em;
+}
+
+.report-section h2 {
+  font-size: 1.5em;
+  margin-bottom: 0.5em;
+  color: #1f3c88;
+  border-bottom: 2px solid #d6deef;
+  padding-bottom: 0.2em;
+}
+
+.report-section h3 {
+  font-size: 1.1em;
+  margin-bottom: 0.4em;
+  color: #163172;
+}
+
+.report-section p {
+  margin-bottom: 0.8em;
+  text-align: justify;
+}
+
+.validation-item {
+  margin-top: 1em;
+}
+
+.validation-item img {
+  width: 100%;
+  max-width: 500px;
+  display: block;
+  margin: 0.5em auto;
+  border: 1px solid #b8c4d8;
+  border-radius: 4px;
+}
+
+.validation-title {
+  font-size: 0.95em;
+  text-align: center;
+  margin-top: 0.3em;
+  color: #444;
+}
+
+@media (max-width: 768px) {
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .report-page {
+    width: 95%;
+    padding: 1.5em;
+  }
+
+  .report-section h2 {
+    font-size: 1.3em;
+  }
+
+  .report-section h3 {
+    font-size: 1.05em;
+  }
+
+  .validation-item img {
+    max-width: 100%;
+  }
+
+  .site-nav a {
+    display: block;
+    margin: 0.5rem 0;
+  }
 }
